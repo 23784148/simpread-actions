@@ -2,7 +2,7 @@ name: 'GitHub Actions Send Daily to Telegram or Feishu'
 
 on:
   schedule:
-    - cron: '50 3 * * *'
+    - cron: '50 5 * * *'
   push:
     branches: [main]
 

@@ -1,4 +1,4 @@
-name: 'GitHub Actions Send Daily to Telegram / Feishu'
+name: 'GitHub Actions Send Daily to Telegram or Feishu'
 
 on:
   schedule:
@@ -26,4 +26,5 @@ jobs:
           SIMPREAD_TOKEN: ${{ secrets.SIMPREAD_TOKEN }}
           SIMPREAD_ID: ${{ secrets.SIMPREAD_ID }}
           TELEGRAM_CHAT: ${{ secrets.TELEGRAM_CHAT }}
+          TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
           FEISHU_TOKEN: ${{ secrets.FEISHU_TOKEN }}
